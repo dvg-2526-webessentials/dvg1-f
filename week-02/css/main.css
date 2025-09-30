@@ -1,0 +1,7 @@
+.hero {
+  background-color: black;
+  color: white;
+  font-size: 32px;
+  padding: 12px;
+  transform: rotate(180deg);
+}

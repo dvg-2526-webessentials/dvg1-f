@@ -1,0 +1,20 @@
+/*
+Dit is commentaar
+*/
+
+body {
+  background: hsl(240, 100%, 50%);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.k3-intro {
+  color: hsl(240, 100%, 86%);;
+  font-size: 32px;
+  line-height: 1.2em;
+  text-align: justify;
+  text-decoration: underline;
+}

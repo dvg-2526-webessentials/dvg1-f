@@ -1,0 +1,98 @@
+/*
+Default styles
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+/*
+Container
+*/
+.container {
+  width: 40rem;
+  margin: 0 auto;
+}
+
+/*
+Header
+*/
+.page-header {
+  padding: 3rem 0;
+}
+
+.page-title {
+  color: hsl(0, 0%, 0%);
+  font-weight: 700;
+  text-align: center;
+
+  font-size: 2.2rem;
+}
+
+.introduction {
+  color: hsl(0, 0%, 40%);
+  font-weight: 400;
+  text-align: center;
+
+  font-size: 1.4rem;
+}
+
+.page-main {
+
+}
+
+/*
+Card
+*/
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 40%);
+  border-radius: 2rem;
+
+  padding: 3rem;
+  margin-bottom: 2rem;
+
+  transform: skewX(30deg);
+  box-shadow: 6px 6px hsla(0, 0%, 40%, 0.5);
+}
+
+.card__image {
+  border-radius: 2rem;
+}
+
+.card__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.card__content {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.0rem;
+  color: hsl(0, 0%, 60%);
+
+  border-top: 2px dotted hsl(0, 0%, 60%);
+  border-bottom: 2px dotted hsl(0, 0%, 60%);
+  padding: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid hsl(0, 0%, 60%);
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 2rem;
+
+  border-radius: 2rem;
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.center {
+  text-align: center;
+  padding-top: 2rem;
+}

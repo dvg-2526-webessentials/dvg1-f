@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*
+Container
+*/
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*
+Header
+*/
+.page-header {
+  background-color: transparent;
+  color: #fff;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*
+Footer
+*/
+.page-footer {
+  background-color: #222222;
+  color: #fff;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*
+Section
+*/
+.page-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.page-section--white {
+  background-color: hsl(0, 0%, 100%);
+  color: #222;
+}
+
+/*
+Article
+*/
+.article {
+  margin-bottom: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.article:last-of-type {
+  margin-bottom: 0;
+}
+.article__title {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #000;
+
+  margin-bottom: 1em;
+}
+
+.article__description {
+  font-size: 1.2rem;
+  line-height: 1.28;
+  margin-bottom: 1em;
+}
+
+.article__content {
+  width: 60%;
+}
+
+.article__figure {
+  width: 40%;
+}
+
+/*
+Button
+*/
+.btn {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #000;
+
+  font-weight: 700;
+}

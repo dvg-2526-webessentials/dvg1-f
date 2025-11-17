@@ -1,0 +1,44 @@
+body {
+  background-image: url('../images/macbook.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+  background-color: hsl(0, 0%, 93%);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.header__logo {
+   width: 6rem;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.header__menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}

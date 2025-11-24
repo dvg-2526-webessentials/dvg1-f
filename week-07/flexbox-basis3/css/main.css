@@ -24,11 +24,29 @@ body {
 }
 
 .header__nav {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
+}
+
+.header__menu-item {
+  text-transform: uppercase;
+}
+
+.header__menu-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.button {
+  background-color: hsl(260, 100%, 36%);
+  color: hsl(260, 100%, 96%);
+  text-decoration: none;
+  text-transform: none;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
 }
 
 .header__menu {

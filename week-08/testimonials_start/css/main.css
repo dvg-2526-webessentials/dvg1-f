@@ -1,7 +1,8 @@
 :root {
   --color-brown: hsl(12, 58%, 15%);
-  --color-orange: hsl(21, 100%, 68%);
+  --color-orange: hwb(21 36% 0%);
   --color-purple-light: hsl(219, 88%, 84%);
+  --spacing: 1.6rem;
 }
 
 body {
@@ -40,10 +41,10 @@ h2 {
 .testimonials {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
 
-.testimonials h2 {
-  order: -1;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
 }
 
 .testimonials__wrapper {
@@ -52,18 +53,18 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: var(--spacing);
 }
 
 .testimonial {
   width: 22rem;
-  border-radius: 1rem;
+  border-radius: var(--spacing);
   background-color: var(--color-purple-light);
   color: var(--color-brown);
-  padding: 1rem;
+  padding: var(--spacing);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: var(--spacing);
 }
 
 /*

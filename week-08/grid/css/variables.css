@@ -1,0 +1,7 @@
+:root {
+  --color-brown: hsl(12, 58%, 15%);
+  --color-orange: hsl(21, 100%, 68%);
+  --color-purple-light: hsl(219, 88%, 84%);
+  --spacing: 1.4rem;
+  --grid-column-unit: calc(100% / 12 - (12 - 1) * var(--spacing) / 12);
+}

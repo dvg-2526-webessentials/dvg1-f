@@ -21,12 +21,16 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
   justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .product-item {
-  width: 100%;
+  flex-basis: calc((100% - (1 - 1) * 1rem) / 1);
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
   aspect-ratio: 1/1;
   background-color: red;
 }
@@ -61,7 +65,7 @@ body {
   }
 
   .product-item {
-    width: calc(50% - 1rem);
+    flex-basis: calc((100% - (2 - 1) * 1rem) / 2);
   }
 }
 
@@ -80,7 +84,7 @@ body {
   }
 
   .product-item {
-    width: calc(33.33333% - 2rem);
+    flex-basis: calc((100% - (3 - 1) * 1rem) / 3);
   }
 }
 
@@ -99,6 +103,6 @@ body {
   }
 
   .product-item {
-    width: calc(25% - 3rem);
+    flex-basis: calc((100% - (4 - 1) * 1rem) / 4);
   }
 }

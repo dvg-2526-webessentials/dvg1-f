@@ -1,0 +1,124 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  ;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.grid__item {}
+
+.grid__item--demo {
+  background-color: chartreuse;
+  height: 2rem;
+}
+
+.grid__item--span-3-of-12 {
+  flex-basis: calc((100% - 3*1rem) / 4);
+}
+
+.grid__item--span-4-of-12 {
+  flex-basis: calc((100% - 2*1rem) / 3);
+}
+
+.grid__item--span-6-of-12 {
+  flex-basis: calc((100% - 1*1rem) / 2);
+}
+
+.grid__item--span-12-of-12 {
+  flex-basis: calc((100% - 0*1rem) / 1);
+}
+
+@media (min-width: 30rem) {
+  .grid__item--sm-span-3-of-12 {
+    flex-basis: calc((100% - 3*1rem) / 4);
+  }
+
+  .grid__item--sm-span-4-of-12 {
+    flex-basis: calc((100% - 2*1rem) / 3);
+  }
+
+  .grid__item--sm-span-6-of-12 {
+    flex-basis: calc((100% - 1*1rem) / 2);
+  }
+
+  .grid__item--sm-span-12-of-12 {
+    flex-basis: calc((100% - 0*1rem) / 1);
+  }
+}
+
+@media (min-width: 48rem) {
+  .grid__item--md-span-3-of-12 {
+    flex-basis: calc((100% - 3*1rem) / 4);
+  }
+
+  .grid__item--md-span-4-of-12 {
+    flex-basis: calc((100% - 2*1rem) / 3);
+  }
+
+  .grid__item--md-span-6-of-12 {
+    flex-basis: calc((100% - 1*1rem) / 2);
+  }
+
+  .grid__item--md-span-12-of-12 {
+    flex-basis: calc((100% - 0*1rem) / 1);
+  }
+}
+
+@media (min-width: 64rem) {
+  .grid__item--lg-span-3-of-12 {
+    flex-basis: calc((100% - 3*1rem) / 4);
+  }
+
+  .grid__item--lg-span-4-of-12 {
+    flex-basis: calc((100% - 2*1rem) / 3);
+  }
+
+  .grid__item--lg-span-6-of-12 {
+    flex-basis: calc((100% - 1*1rem) / 2);
+  }
+
+  .grid__item--lg-span-12-of-12 {
+    flex-basis: calc((100% - 0*1rem) / 1);
+  }
+}
+
+@media (min-width: 80rem) {
+  .grid__item--xl-span-3-of-12 {
+    flex-basis: calc((100% - 3*1rem) / 4);
+  }
+
+  .grid__item--xl-span-4-of-12 {
+    flex-basis: calc((100% - 2*1rem) / 3);
+  }
+
+  .grid__item--xl-span-6-of-12 {
+    flex-basis: calc((100% - 1*1rem) / 2);
+  }
+
+  .grid__item--xl-span-12-of-12 {
+    flex-basis: calc((100% - 0*1rem) / 1);
+  }
+}
+
+.card {
+  width: 100%;
+}
+
+.card__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.card__image>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -20,6 +20,14 @@
   height: 2rem;
 }
 
+.grid__item--span-1-of-12 {
+  flex-basis: calc((100% - 11*1rem) / 12);
+}
+
+.grid__item--span-2-of-12 {
+  flex-basis: calc((100% - 5*1rem) / 6);
+}
+
 .grid__item--span-3-of-12 {
   flex-basis: calc((100% - 3*1rem) / 4);
 }
@@ -28,8 +36,16 @@
   flex-basis: calc((100% - 2*1rem) / 3);
 }
 
+.grid__item--span-5-of-12 {
+  flex-basis: calc(5 * (100% - 11*1rem) / 12 + 4 * 1rem);
+}
+
 .grid__item--span-6-of-12 {
   flex-basis: calc((100% - 1*1rem) / 2);
+}
+
+.grid__item--span-7-of-12 {
+  flex-basis: calc(7 * (100% - 11*1rem) / 12 + 6 * 1rem);
 }
 
 .grid__item--span-12-of-12 {

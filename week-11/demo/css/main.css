@@ -1,0 +1,59 @@
+.eff--01 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  color: #F00;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out 0s
+}
+
+.eff--01:hover {
+  color: #00F;
+  background-color: hsl(60, 100%, 50%);
+}
+
+.eff--02 {
+  width: 9rem;
+  aspect-ratio: 1 / 1;
+  line-height: 9rem;
+  text-align: center;
+  color: #000;
+  background-color: #0F0;
+  border-radius: 0;
+
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+.eff--02:hover {
+  color: #0F0;
+  background-color: #000;
+
+  border-radius: 50%;
+}
+
+.painting {
+  width: 600px;
+  height: 798px;
+  overflow: hidden;
+}
+
+.mrbean {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  top: -120px;
+
+  transition: all 3s ease-in-out 0s;
+  filter: grayscale(100%);
+}
+
+.painting:hover .mrbean {
+  top: -700px;
+  filter: grayscale(0%);
+}

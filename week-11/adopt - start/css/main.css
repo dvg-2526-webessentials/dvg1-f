@@ -1,0 +1,35 @@
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.card__image {
+  position: relative;
+  top: 0;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.card:hover .card__image {
+  top: -60px;
+}
+
+.card__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background-color: #fff;
+  width: 100%;
+  z-index: -1;
+}

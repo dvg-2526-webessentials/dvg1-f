@@ -1,3 +1,15 @@
+body {
+  transform: skewX(0deg);
+  filter: grayscale(100%);
+
+  transition: all 0.3s ease-in-out 0s
+}
+
+body:hover {
+  transform: skewX(30deg);
+  filter: grayscale(0%);
+}
+
 .eff--01 {
   font-size: 3rem;
   font-weight: 800;
@@ -57,3 +69,25 @@
   top: -700px;
   filter: grayscale(0%);
 }
+
+.eff--03 {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+
+  background: #000;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.eff--03:hover {
+  transform: rotate(360deg) scale(10);
+}
+
+.mrbean--03 {
+  width: 100%;
+}
+
+/*
+Spotify playlist
+https://open.spotify.com/playlist/15qfc3DIekjd6dLFLPUEid?si=69b3b1546bcd4a6d&pt=22ce7493b227e477b45fa0ead158a0b1
+*/
